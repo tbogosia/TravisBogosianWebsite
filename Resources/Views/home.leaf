@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Leaf</title>
+        <title>Travis Bogosian</title>
+        <link rel="stylesheet" href="/styles/app.css">
     </head>
     <body>
-        <h1> Welcome to my first leaf template! </h1>
+        <div id="navigation">
+            <h1>Travis Bogosian</h1>
+            <h2>Filmmaker and Software Engineer</h2>
+        </div>
+        <div id="content">
+            <iframe src="https://player.vimeo.com/video/324891253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
     </body>
 </html>

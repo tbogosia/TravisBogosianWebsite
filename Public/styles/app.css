@@ -1,0 +1,43 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+    margin: 0px;
+}
+
+#navigation {
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 16px;
+    left: 16px;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+#navigation h1 {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navigation h2 {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    top: 80px;
+    right: 16px;
+    left: 16px;
+    bottom: 16px;
+    position: fixed;
+}
+
+#content iframe {
+    width: 100%;
+    height: 100%;
+}
